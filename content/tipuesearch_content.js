@@ -1,1 +1,1 @@
-var tipuesearch = {"pages": [{'title': 'About', 'text': 'cmsimde_site \n', 'tags': '', 'url': 'About.html'}, {'title': '每周紀錄', 'text': '記錄每周上課內容 \n', 'tags': '', 'url': '每周紀錄.html'}]};
+var tipuesearch = {"pages": [{'title': 'About', 'text': 'cmsimde_site \n', 'tags': '', 'url': 'About.html'}, {'title': '每周紀錄', 'text': '記錄每周上課內容 \n', 'tags': '', 'url': '每周紀錄.html'}, {'title': 'W1_0223', 'text': '將學校電腦的網路連線設置成 IPV6 的連線 \n Ipv6網路設定 \xa0載\xa0 cadlab_network_setup.zip', 'tags': '', 'url': 'W1_0223.html'}]};
