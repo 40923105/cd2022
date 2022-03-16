@@ -140,9 +140,8 @@ img.add_border {
           
         </header>
     <div id="tipue_search_content">建立倉儲 << <a href='建立倉儲.html'>Previous</a> <br /><h1>分組程式碼</h1>
-<p>我是利用 wcm2021_w14 分組方法</p>
 <pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># grp_2a_old.py
-studList = "cd2022_old.txt"
+studList = "cd2022_w4_grp.txt"
 courTitle = "cd2022"
 
 # group title initial
@@ -177,7 +176,7 @@ for i in range(len(data)):
     # grpCount is the group order
     grpCount = grpCount + 1
     group = data[i].rstrip("\n").split("\t")
-    # use filter to remove vacant string element
+    # use filter to remove vacant string eleament
     # use [1:] to remove first element
     group = list(filter(None, group))[1:]
     print(grpTitle + str(grpCount) + "&lt;br /&gt;")
