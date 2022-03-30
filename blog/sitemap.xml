@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2022-03-30T10:40:09-00:00</lastmod>
+<lastmod>2022-03-30T11:04:38-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2022-03-30T10:40:09-00:00</lastmod>
+<lastmod>2022-03-30T11:04:38-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2022-03-30T10:40:09-00:00</lastmod>
+<lastmod>2022-03-30T11:04:38-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2022-03-30T10:40:09-00:00</lastmod>
+<lastmod>2022-03-30T11:04:38-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -40,28 +40,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./W6_40923105.html</loc>
-<lastmod>2022-03-30T10:33:29+08:00</lastmod>
+<lastmod>2022-03-30T11:01:33+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/misc.html</loc>
-<lastmod>2022-03-30T10:33:29+08:06</lastmod>
+<lastmod>2022-03-30T11:01:33+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/cd2022.html</loc>
-<lastmod>2022-03-30T10:33:29+08:06</lastmod>
+<loc>./tag/40923105-cd2022.html</loc>
+<lastmod>2022-03-30T11:01:33+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40923105.html</loc>
-<lastmod>2022-03-30T10:33:29+08:06</lastmod>
+<lastmod>2022-03-30T11:01:33+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
