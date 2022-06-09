@@ -155,8 +155,23 @@ var winkVideoData = {
 <div class="winkVideoPlayOverlayClass"></div>
 </div>
 <h2>W11</h2>
-<p>將原本使用的 token 更改為 SSH </p>
-<h2>W12</h2>
+<p>將原本使用的 token 更改為 SSH ↓</p>
+<p><span>進入 data &gt; PuTTY &gt; puttygen.exe &gt; Generate &gt; 滑鼠在上面空白處移動，創造一把 key &gt; 全選 &gt; 複製 &gt; 貼到 github 設定裡的 SSH &gt; 要Save private key 檔案名稱為 → 學號.ppk</span></p>
+<p><span><img alt="" height="446" src="/images/0609_SSH-1.png" width="500"/></span></p>
+<p><span>接著開啟 </span><span>putty.exe 下面的 sessions 可以自己命名</span></p>
+<p><span><img alt="" height="454" src="/images/0609_SSH-2.png" width="500"/></span></p>
+<p><span><img alt="" height="450" src="/images/0609_SSH-3.png" width="500"/></span></p>
+<p><span>▲選取剛剛儲存的ppk檔</span></p>
+<p><span><img alt="" height="453" src="/images/0609_SSH-4.png" width="500"/></span></p>
+<p>▲由於我們是用自己的電腦不用設 Proxy</p>
+<p>用完要記得回到 Session 儲存。</p>
+<p></p>
+<p>當倉儲使用github.com push 必須修改.git &gt; config 中的 url 格式</p>
+<p>1.先以半形 # 去註解 https 的連線設定</p>
+<p>2.下面再打一行 <span style="background-color: #ccffff;">url = git@<span style="color: #ff0000;">session</span>:帳號/倉儲.git </span></p>
+<p><span style="color: #ff0000;">※<span style="color: #000000;"><strong>Session</strong></span></span> 名稱為自己在<span>putty.exe中所設定的 session</span></p>
+<p><span><img alt="" height="263" src="/images/0609_SSH-5.png" width="522"/></span></p>
+<p><span></span></p><h2>W12</h2>
 <p></p>
 <script>
 var winkVideoData = {
