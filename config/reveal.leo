@@ -216,7 +216,7 @@ vertical: body pane on the botton</t>
 <t tx="leo.20200818170328.1">&lt;section&gt;
     &lt;h3&gt;40923105&lt;/h3&gt;
     &lt;p&gt;
-        ???????
+        簡報
     &lt;/p&gt;
 &lt;/section&gt;
 
