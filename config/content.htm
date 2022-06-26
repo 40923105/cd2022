@@ -795,8 +795,8 @@ var winkVideoData = {
 <source src="./../downloads/w8_uarm_run.mp4" type="video/mp4"/></video></div>
 <div class="winkVideoContainerClass"></div>
 <h1>期末考週</h1>
-<p>1.利用老師倉儲內 <span class="js-path-segment d-inline-block wb-break-all">downloads</span><span class="mx-1">/</span><span class="js-path-segment d-inline-block wb-break-all">w8_midterm</span><span class="mx-1">/</span><span class="js-path-segment d-inline-block wb-break-all">w8_uarm_nx1</span><span class="js-path-segment d-inline-block wb-break-all">2</span><span class="mx-1">/</span>uarm_robot_nx12 <span class="mx-1">裡的</span><a href="https://github.com/mdecycu/cd2022_guide/tree/main/downloads/w8_midterm/w8_uarm_nx12/uarm_robot_nx12"> uArm</a> 機械手臂零件，修改nx12絞鍊、front joint 零件外型，使能 Triangular connecting rod、left link、end link 等零組件和 right crank、right link 的零組件左右互換。完成新 uArm 機械手臂組合檔案後，將零組件檔案放入個人 cd2022 倉儲 downloads 中的 <a href="https://github.com/40923105/cd2022/tree/main/downloads/w18/uarm">w18/uarm</a> 目錄後執行 <strong>acp "完成期末考週 uarm 新組立檔案"</strong> </p>
-<p><span style="background-color: #ffff99;">2.Wink 零組件繪圖過程（使用 NX12 更改零組件及組立）</span></p>
+<p>1.利用老師倉儲內 <span class="js-path-segment d-inline-block wb-break-all">downloads</span><span class="mx-1">/</span><span class="js-path-segment d-inline-block wb-break-all">w8_midterm</span><span class="mx-1">/</span><span class="js-path-segment d-inline-block wb-break-all">w8_uarm_nx1</span><span class="js-path-segment d-inline-block wb-break-all">2</span><span class="mx-1">/</span>uarm_robot_nx12 <span class="mx-1">裡的</span><a href="https://github.com/mdecycu/cd2022_guide/tree/main/downloads/w8_midterm/w8_uarm_nx12/uarm_robot_nx12"> uArm</a> 機械手臂零件，修改nx12絞鍊、front joint 零件外型，使能 Triangular connecting rod、left link、end link 等零組件和 right crank、right link 的零組件左右互換。完成新 uArm 機械手臂組合檔案後，將零組件檔案放入個人 cd2022 倉儲 downloads 中的 <a href="https://github.com/40923105/cd2022/tree/main/downloads/w18/uarm">w18/uarm</a> 目錄後執行 <strong>acp "完成期末考週 uarm 新組立檔案"</strong></p>
+<p><strong><span style="background-color: #ccffcc;">2.Wink 零組件繪圖過程（使用 NX12 更改零組件及組立）</span></strong></p>
 <script>
 var winkVideoData = {
   dataVersion: 1,
@@ -810,9 +810,8 @@ var winkVideoData = {
 <div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData" height="698" muted="true" width="1030">
 <source src="./../downloads/nx_change.mp4" type="video/mp4"/></video></div>
 <div class="winkVideoContainerClass"></div>
-<p>心得：</p>
-<p>再更改零件的拉伸時，還要注意是不是會影響到其他的草圖或拉伸；在組裝的時候覺得很麻煩，有時候會左右不分然後約束錯方向，就要一直重來，花了很多使間在看左右，而且有時候約束完會忘記按套用或確認，下意識就直接按取消，然後就要重新載入零件或重新在約束一次。</p>
-<p><span style="background-color: #ffff99;">3.將組立件轉入 CoppeliaSim 4.3.0 rev3. 後，以 slider 控制前三軸的轉動</span></p>
+<p>心得：再更改零件的拉伸時，還要注意是不是會影響到其他的草圖或拉伸；在組裝的時候覺得很麻煩，有時候會左右不分然後約束錯方向，就要一直重來，花了很多使間在看左右，而且有時候約束完會忘記按套用或確認，下意識就直接按取消，然後就要重新載入零件或重新在約束一次。</p>
+<p><span style="background-color: #ccffcc;"><strong>3.將組立件轉入 CoppeliaSim 4.3.0 rev3. 後，以 slider 控制前三軸的轉動</strong></span></p>
 <script>
 var winkVideoData1 = {
   dataVersion: 1,
@@ -826,21 +825,15 @@ var winkVideoData1 = {
 <div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData1" height="698" muted="true" width="1030">
 <source src="./../downloads/slider.mp4" type="video/mp4"/></video></div>
 <div class="winkVideoContainerClass"></div>
-<p><span style="background-color: #ffff99;">4.XML UI slider 控制</span></p>
+<p><strong><span style="background-color: #ccffcc;">4.XML UI slider 控制</span></strong></p>
 <p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="506" src="https://www.youtube.com/embed/ExIv1Ic66XM" title="XML UI slider 控制" width="900"></iframe></p>
-<p>心得：</p>
-<p>自己在做 slider 控制前三軸的時候，剛開始排列零件的時候都沒問題，可是當他在跑程式時我的軸會整個脫離起飛，剛開始想說嘗試不同的排列去跑可是也都一樣，最後我去改零件的重量，才不會起飛脫離，去年在做 mearm 的時候也一樣，都會不正常的旋轉起飛。</p>
-<p></p>
-<p><span style="background-color: #ffff99;">5.加入 suctionPad 零件，以手動操控或程式操控的方式，控制 block 方塊零件取放模擬</span> <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="506" src="https://www.youtube.com/embed/f0hRaDw026U" title="加入 suctionPad 零件，以手動操控或程式操控的方式，控制 block 方塊零件取放模擬" width="900"></iframe></p>
-<p>心得：</p>
-<p>有時用鍵盤控制沒辦法動，可是重新開啟 coppeliasim 後又可以用鍵盤控制了，已經好幾次都這樣了，可是一直找不到原因，今天剛做完時就發生這個問題，那時候重開兩次都不會動，直接被嚇死，可是重開第三次的時候就可以了。</p>
-<p></p>
-<p></p>
-<p><span style="background-color: #ffff99;">6.以跨網路 Python remote API 的方式，控制圖形介面 slider 前三軸轉動</span></p>
-<p><span style="background-color: #ffff99;"></span></p>
+<p>心得：自己在做 slider 控制前三軸的時候，剛開始排列零件的時候都沒問題，可是當他在跑程式時我的軸會整個脫離起飛，剛開始想說嘗試不同的排列去跑可是也都一樣，最後我去改零件的重量，才不會起飛脫離，去年在做 mearm 的時候也一樣，都會不正常的旋轉起飛。</p>
+<p><strong><span style="background-color: #ccffcc;">5.加入 suctionPad 零件，以手動操控或程式操控的方式，控制 block 方塊零件取放模擬</span></strong></p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="506" src="https://www.youtube.com/embed/f0hRaDw026U" title="加入 suctionPad 零件，以手動操控或程式操控的方式，控制 block 方塊零件取放模擬" width="900"></iframe></p>
+<p>心得：有時用鍵盤控制沒辦法動，可是重新開啟 coppeliasim 後又可以用鍵盤控制了，已經好幾次都這樣了，可是一直找不到原因，今天剛做完時就發生這個問題，那時候重開兩次都不會動，直接被嚇死，可是重開第三次的時候就可以了。</p>
+<p><strong><span style="background-color: #ccffcc;">6.<span>以跨網路 Python remote API 的方式，控制圖形介面 slider 前三軸轉動(操控者-7號 被操控者-5號)</span></span></strong></p>
 <p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="506" src="https://www.youtube.com/embed/ltvqEgq6ENs" title="以跨網路 Python remote API 的方式，控制圖形介面 slider 前三軸轉動" width="1012"></iframe></p>
-<p>心得：</p>
-<p>與7號在使用 VPN 連線時，因為防火牆的關係導致我與7號一直無法連線，崩潰了很久，想說是不是這題真的廢了，結果最後發現是我的防火牆忘記關，最後雖然連線了，但她在操控時我這裡的 uarm 沒辦法動， 結果是我 coppeliasim UI 介面的程式打 joint123 但零件那邊打 motor123，最後都有修改回來了，成功大結局！</p><h1>NX教學影片</h1>
+<p>心得：與7號在使用 VPN 連線時，因為防火牆的關係導致我與7號一直無法連線，崩潰了很久，也嘗試過交換操控者與被操控者的身分，操控者要把 uarm_tkinter_control.py 裡的第 61行 裡的 IP 位置改成被操控者的 IP 位置，想說是不是這題真的廢了，結果最後發現是我的防火牆忘記關，最後雖然連線了，但她在操控時我這裡的 uarm 沒辦法動， 結果是我 coppeliasim UI 介面的程式打 joint123 但零件那邊打 motor123，最後都有修改回來了，成功大結局！</p><h1>NX教學影片</h1>
 <p>解壓縮 NX1980 後嘗試打開可是失敗，結果是認證主機的位置錯誤，以下是更改認證主機位置</p>
 <script>
 var winkVideoData = {
